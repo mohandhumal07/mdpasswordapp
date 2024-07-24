@@ -17,7 +17,7 @@ app.post("/save",(req, res) => {
 		});
 
 app.get("/gs",(req, res) => {
-		const url = "mongodb+srv://mohandhumal07:SbUQ7pZf347ruzPT@cluster0.k56nujn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";;
+		const url = "mongodb+srv://mohandhumal07:SbUQ7pZf347ruzPT@cluster0.k56nujn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 		const client = new MongoClient(url);
 		const db = client.db("passwordapp2");
 		const coll = db.collection("passwords");
@@ -27,7 +27,7 @@ app.get("/gs",(req, res) => {
 		});
 
 app.delete("/ds", (req, res) => {
-		const url = "mongodb+srv://mohandhumal07:SbUQ7pZf347ruzPT@cluster0.k56nujn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";;
+		const url = "mongodb+srv://mohandhumal07:SbUQ7pZf347ruzPT@cluster0.k56nujn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 		const client = new MongoClient(url);
 		const db = client.db("passwordapp2");
 		const coll = db.collection("passwords");
@@ -38,7 +38,7 @@ app.delete("/ds", (req, res) => {
 		});
 
 app.put("/us", (req, res) => {
-		const url = "mongodb+srv://mohandhumal07:SbUQ7pZf347ruzPT@cluster0.k56nujn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";;
+		const url = "mongodb+srv://mohandhumal07:SbUQ7pZf347ruzPT@cluster0.k56nujn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0";
 		const client = new MongoClient(url);
 		const db = client.db("passwordapp2");
 		const coll = db.collection("passwords");
